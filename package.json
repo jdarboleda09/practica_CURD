@@ -1,0 +1,24 @@
+{
+    "name": "conexion-bd",
+    "version": "1.0.0",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.22.1",
+        "mysql2": "^3.18.2"
+    },
+    "description": "taller practico de CRUD",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jdarboleda09/practica_CURD.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/jdarboleda09/practica_CURD/issues"
+    },
+    "homepage": "https://github.com/jdarboleda09/practica_CURD#readme"
+}

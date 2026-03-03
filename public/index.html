@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Usuarzios</title>
+</head>
+
+<body>
+    <h1>CRUD USUARIOS</h1>
+
+    <input type="hidden" id="userId">
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="telefono" placeholder="telefono">
+    <input type="email" id="correo" placeholder="Correo">
+    <button onclick="saveUser()">Guardar</button>
+
+    <hr>
+
+    <button onclick="getUsers()">Cargar Usuarios</button>
+    <ul id="userList"></ul>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
